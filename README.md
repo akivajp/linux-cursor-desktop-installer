@@ -8,6 +8,12 @@ Scripts to install Cursor AppImage on Linux with desktop integration.
 $ ./install-appimage.sh <AppImage URL>
 ```
 
+## Install v1.1.6 for x86_64 Linux
+
+```shell
+$ ./install-x64-1.1.6.sh
+```
+
 ## Install v1.0.0 for x86_64 Linux
 
 ```shell
