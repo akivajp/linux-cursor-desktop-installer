@@ -6,5 +6,9 @@ APPIMAGE_URL="https://downloads.cursor.com/production/53b99ce608cba35127ae3a050c
 
 # Get the directory path of this script
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BASE_DIR="$(cd "${SCRIPT_DIR}" && cd .. && pwd)"
 
-"${SCRIPT_DIR}/install-appimage.sh" "$APPIMAGE_URL"
+echo "Script directory: $SCRIPT_DIR"
+echo "Base directory: $BASE_DIR"
+
+"${BASE_DIR}/install-appimage.sh" "$APPIMAGE_URL"
